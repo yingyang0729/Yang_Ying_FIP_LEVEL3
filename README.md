@@ -33,7 +33,8 @@ The FIP project is finished by Ying Yang. As the only developer, I would like to
 
 
 ## Credits
-TODO: The FIP is about 30% for credits in the course.
+TODO: The FIP is about 30% for credits in the course. Here is a little problem.
+
 
 ## License
 TODO: Fanshawe College-Interative Media Design-Level 3
