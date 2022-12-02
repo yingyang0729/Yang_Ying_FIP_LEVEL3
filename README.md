@@ -34,7 +34,19 @@ The FIP project is finished by Ying Yang. As the only developer, I would like to
 
 ## Credits
 TODO: The FIP is about 30% for credits in the course. Here is a little problem.
+ Here is a screenshot for the received email ![iamge](https://github.com/yingyang0729/Yang_Ying_AJAX_Form/blob/main/images/Screenshot%202022-11-26%20154526.png).
+ However, I checked my files after I post them on my hosting. I think the speed of my hosting is slow, so you cannot see some images.
 
+For example, you might not  see the whole page of my package page. You may see:
+![iamge]() 
+![iamge]()
+However, I added images on the website. I hope you can see the below images.
+![iamge]()
+![iamge]()
+
+The email is working. It is my test result of the hosting email.
+
+![iamge]()
 
 ## License
 TODO: Fanshawe College-Interative Media Design-Level 3
