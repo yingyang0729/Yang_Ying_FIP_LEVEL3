@@ -9,12 +9,12 @@
     left: 0;
     top: 0;
   
-    background-color: #fff;
+    background-color: #5e7f57;
     background-image: url('../images/Cap_LB_Bg.png');
     background-repeat: no-repeat;
   
-    background-position: 40px bottom;
-    background-size: 55vh;
+    background-position: 100px bottom;
+    background-size: 70vh;
   
     z-index: 5000;
 }
@@ -41,7 +41,7 @@
   
   .lb_text, .lb_heading { 
     text-align: left; 
-    color: #5e7f57;
+    color: #fff;
   }
   
   .lb_text { 
@@ -52,5 +52,5 @@
 	  word-wrap: break-all;
 	  word-break: normal;
 	  overflow-y: scroll;
-    color: #5e7f57;
+    color: #fff;
   }
