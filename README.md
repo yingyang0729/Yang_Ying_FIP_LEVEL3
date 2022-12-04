@@ -25,24 +25,16 @@ The contributor is Ying Yang.
 ## History
 TODO: 
 The FIP project is finished by Ying Yang. As the only developer, I would like to explain the project.
-1. Home Page: I added my videos on the home page with HTML and JS. The video is controlled by JS but I did not think it was a fetch. I did not like adding videos but I also thought the JS skill should be shown. The home is only for display.
-2. About: I finished the page with JSON and JS. I fetched all pictures and words by using JSON.
-3. Artworks: I accomplished the page with JSON，JS and Vue JS. On the the top of the page I added the Vue Router to attach pictures and text. I also used lgiht box on the bottom of the page.
-4. Package: I completed the page with JSON, JS and Vue Js. This way is learned from Professor Trevor's classtime. I used three ways to fetch files so I set up three JSON files.
-5. Contact: I have done the page with PHP, JS and Vue JS. It can send emails for any emails. I already fixed the problem. Now the contact page is working.
+1. Home: I finished the page with JSON and JS. I fetched all pictures and words by using JSON.
+2. Graphic: I accomplished the page with JSON，JS and Vue JS. On the the top of the page I added the Vue Router to attach pictures and text. I also used lgiht box on the bottom of the page.
+3. Motion: I completed the page with JSON, JS and Vue Js. This way is learned from Professor Trevor's classtime. I used three ways to fetch files so I set up three JSON files.The video is controlled by JS. 
+4. Contact: I have done the page with PHP, JS and Vue JS. It can send emails for any emails. I already fixed the problem. Now the contact page is working.
 
 
 ## Credits
 TODO:  Here is a little problem.
  
  I checked my files after I post them on my hosting. I think the speed of my hosting is slow, so you cannot see some images.
-
-For example, you might not  see the whole page of my package page. You may see:
-![iamge](https://github.com/yingyang0729/Yang_Ying_FIP_LEVEL3/blob/main/pictures/Screenshot%202022-12-02%20153702.png) 
-![iamge](https://github.com/yingyang0729/Yang_Ying_FIP_LEVEL3/blob/main/pictures/Screenshot%202022-12-02%20153717.png)
-However, I added images on the website. I hope you can see the below images.
-![iamge](https://github.com/yingyang0729/Yang_Ying_FIP_LEVEL3/blob/main/pictures/Screenshot%202022-12-02%20153606.png)
-![iamge](https://github.com/yingyang0729/Yang_Ying_FIP_LEVEL3/blob/main/pictures/Screenshot%202022-12-02%20153648.png)
 
 The email is working. It is my test result of the hosting email.
 ![iamge](https://github.com/yingyang0729/Yang_Ying_FIP_LEVEL3/blob/main/pictures/Screenshot%202022-12-02%20153740.png)
