@@ -1,24 +1,35 @@
 export default {
-    name: 'TheMetalPackage',
-
-    props: {
-        hero: Object
-    },
+    name: 'TheLightcontainerComponent',
+    
+    props: ['hero'],
 
     template:
     `
-    <li @click="loadLightcontainerData">
-        <img :src='"images/" + hero.metalpic' alt="hero image" width="300">
-        <!-- <div class="sprite"></div> -->
-        <div class="red-bumper"></div>
-        <h5>{{hero.topic}}</h5>
-    </li>
+    <section ref="lbWrapper" class="lightcontainer" :style="{ 'background-image': 'url(../images/'+ hero.lbBG +')'}" >
+    <!--validate date here-->
+    
+        <img @click="closeLB" src="images/closeIcon.png" class="lightcontainer_close">
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading">
+                <pre>{{ hero.topic }}</pre>
+            </h3>
+           
+            <p class="lb_text">
+               <pre>{{ hero.price }}</pre>
+            </p>
+            <p class="lb_text">
+                <pre>{{ hero.infor }}</pre>
+            </p>
+        </article>
+    </section>
     `,
 
     methods: {
-        loadLightcontainerData() {
-            // pass the individual hero object back to the main VM instance
-            this.$emit('loadlb',this.hero);
+        closeLB() {
+            debugger;
+            this.$emit('closelb');
         }
     }
 }
