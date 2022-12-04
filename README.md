@@ -1,5 +1,6 @@
 # Yang_Ying_FIP_level3
 
+[My Porfoflio](http://yingyangdesign.com/level3fip/Home.html)
 TODO: The repo is for level 3 FIP, which is finished by Ying Yang. In the repo, it contains all images, css file, html files, Sass files and JS files etc. 
 
 ## Installation
