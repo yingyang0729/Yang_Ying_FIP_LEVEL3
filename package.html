@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/main_p.css">
     <link href="css/main_home.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/player.css" rel="stylesheet" type="text/css" media="screen">
+ 
     <title>Package</title>
 </head>
 
@@ -22,10 +24,9 @@
             <h2 class="hidden">Main Navigation Desktop</h2>
             
             <ul>
-                <li><a href="Home.html">HOME</a></li>
-                <li><a class="active" href="About.html">ABOUT</a></li>
-                <li><a href="Artworks.html">ARTWORKS</a></li>
-                <li><a href="package.html">PACKAGE</a></li>
+                <li><a href="About.html">HOME</a></li>
+                <li><a href="Artworks.html">Graphic</a></li>
+                <li><a href="package.html">Motion</a></li>
                 <li><a href="Contact.html">CONTACT</a></li>
             </ul>
             
@@ -52,9 +53,28 @@
         <!-- Lightcontainer can go here -->
         <lightcontainer @closelb="this.showLightContainer = false" v-if="showLightContainer" :hero="lightcontainerData"></lightcontainer>
         <!-----end lightcontainer------>>
+
+        <div id="container">
+            <h1>Motion Design</h1>
+            <video id="myVideo">
+                <source src="video/logo.mp4">
+            </video>
+            <output id="timeOut">Time:0</output>
+            <output id="vidNum">Video: 1/4</output>
+            <div id="playButtons">
+                <button id="btnPlay">Play</button><br>
+                <button id="btnPause">Pause</button><br>
+                <button id="btnStop">Stop</button>
+            </div>
+            <div id="nextButtons">
+                <button id="btnNext">Next Video</button>
+            </div>
+        
+        </div>
     </main>
     <!-- make this a sticky footer so it's always at the bottom-->
   
+
 
     <footer id="footer">
         <h2 class="hidden">Footer</h2>
@@ -67,9 +87,12 @@
         </p>
         </div>
     </footer>
+
+
     
     <!-- load script tags at the bottom -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main_p.js" type="module" defer></script>
+    <script src="js/play.js" type="module" defer></script>
 </body>
 </html>
