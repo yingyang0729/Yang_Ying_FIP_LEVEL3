@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="sass/modules/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
     <title>About</title>
 </head>
 
@@ -19,10 +19,9 @@
         <h2 class="hidden">Main Navigation Desktop</h2>
         
         <ul>
-            <li><a href="Home.html" color="#5e7f57">HOME</a></li>
-            <li><a class="active" href="About.html">ABOUT</a></li>
-            <li><a href="Artworks.html">ARTWORKS</a></li>
-            <li><a href="package.html">PACKAGE</a></li>
+            <li><a href="About.html">HOME</a></li>
+            <li><a href="Artworks.html">Graphic</a></li>
+            <li><a href="package.html">Motion</a></li>
             <li><a href="Contact.html">CONTACT</a></li>
         </ul>
         
@@ -30,13 +29,15 @@
     <main class="teamText"  id="app"><!--------vue will attach--->
         
         <div class="hero">
-            <h1 class="teamTitle">My Favorite thing</h1>
+            <br>
             <h2>{{ welcome }}</h2>
     
             <p>{{ topic }}</p>
-            <ul>
+            
+            <ul >
                 <li v-for="member in member">{{ member }}</li>
             </ul>
+            <p>{{ text }}</p>
             <a class="teamText" href="./Contact.html">
                 <button class="close" @click="logicbutton">Contact Me</button>
             </a>
@@ -55,11 +56,16 @@
                 <img :src='"images/" + member.photo' alt="member.photo" class="roundShadowNew">
             </section>
         </div>
+
+      
+    
         
     </main>
-
-    <footer id="footer">
+    
+    <footer id="app" class="hero">
+        
         <h2 class="hidden">Footer</h2>
+        
         <div class="footer">
         <p>
           All prices and services on this website and in our reservation 
@@ -69,6 +75,7 @@
         </p>
         </div>
     </footer>
+    
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     
