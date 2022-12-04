@@ -8,7 +8,7 @@ export default {
     template:
     `
     <li @click="loadLightcontainerData">
-        <img :src='"images/" + hero.metalpic' alt="hero image" width="260">
+        <img :src='"images/" + hero.metalpic' alt="hero image" width="300">
         <!-- <div class="sprite"></div> -->
         <div class="red-bumper"></div>
         <h5>{{hero.topic}}</h5>
