@@ -1,24 +1,39 @@
 {
-    "CaptAmerica": {
-        "name": "2023 MINI COOPER S 3 DOOR",
-        "id": "$39,756",
-        "lbBG": "Cap_LB_Bg.png",
-        "biopic": "cap.jpg",
-        "bio": "Expressive and self assured, the new MINI 3 door is a true original – combining 60+ years of convention-defying ideas with modern touches and practical features. Iconic by design and urban by nature, it’s made to stand out as you uncover new corners of your city. And with a distinct go-kart feel and plenty of power to boot, you’re sure to find something exciting at every turn."
+    "Graphic": {
+        "topic":"Graphic Design",
+        "value":"My Favorite",
+        "text":" I like design and I am so interested in studying many software. I want to learn some new technology to catch up the society. I think I will apply those design skills in my future job..",
+        "photo":"design.jpg"
     },
     
-    "Thor": {
-        "name":"2023 MINI JOHN COOPER WORKS 3 DOOR",
-        "id":"$50,156",
-        "lbBG": "Thor_LB_Bg.png",
-        "biopic":"thor.jpg",
-        "bio": "It’s everything you love about MINI…and more. Thanks to its unique layout and low centre of gravity, the MINI 5 door is ready to deliver the same corner-carving agility that made its 3-door brother famous. But with more doors, headroom, legroom, and cargo room, it may be the slightly better choice for anyone leading a slightly fuller life."
+    
+    "3D Design": {
+        "topic":"3D Design",
+        "value":"My Loving",
+        "text":"I am keen on learning 3D because I think it will be the future trend. The 3D technology is widely applied for various sectors in society.",
+        "photo":"education.jpg"
     },
-    "Widow": {
-        "name":"2023 MINI COOPER S CONVERTIBLE",
-        "id":"$46,356",
-        "lbBG": "BlackWidow_LB_Bg.png",
-        "biopic":"widow.jpg",
-        "bio": "Meet the MINI Convertible – the most open-minded member of the MINI family. Featuring our signature 3-in-1 soft top roof and a refined interior with comfortable seating for four, it’s always ready for your next open-air adventure. And with a lively Twin Power Turbo engine that can hit 100 km/h in a blistering 6.3 seconds (in the John Cooper Works variant), it’s sure to deliver a few hair-raising thrills along the way. Discover the MINI Convertible today, and see the road in a whole new light."
+
+    "Video Design": {
+        "topic":"Video Design",
+        "value":"My Passion",
+        "text":"I have a good feeling for dynamic images or videos, because I have a good feeling for music or shots. I have done screenwriting for a long time in the past, and I have a good musical foundation. So the video I edited has a good visual sense. This is one of my best skills.",
+        "photo":"video.jpg"
+    },
+
+    "Programs": {
+        "topic":"Programs",
+        "value":"My Hobby",
+        "text":"I have practiced a lot for coding because web developer is a high demand position. Computer programs is a powerful field that's why so many people want to cross disciplines to become software engineers.",
+        "photo":"writing.jpg"
+    },
+
+    "Marketing": {
+        "topic":"Marketing",
+        "value":"My Excellent",
+        "text":"I have talent on marketing because my family members have so many businessmen. I have taken the Business-Marketing at Fanshawe. My marketing thinking can help you look for your target groups in for selling your products.",
+        "photo":"marketing.jpg"
     }
-  }
+
+    }
+  
