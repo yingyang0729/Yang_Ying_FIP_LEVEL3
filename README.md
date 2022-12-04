@@ -24,9 +24,9 @@ The contributor is Ying Yang.
 
 ## History
 TODO: 
-The FIP project is finished by Ying Yang. As the only developer, I would like to explain the project.
+The FIP project is finished by Ying Yang. I fetch the files with three ways, which are shown on HOME page, Graphic page, Motion Page. The last page is for emailing. As the only developer, I would like to explain the project.
 1. Home: I finished the page with JSON and JS. I fetched all pictures and words by using JSON.
-2. Graphic: I accomplished the page with JSON，JS and Vue JS. On the the top of the page I added the Vue Router to attach pictures and text. I also used lgiht box on the bottom of the page.
+2. Graphic: I accomplished the page with JSON，JS and Vue JS. On the the top of the page I added the Vue Router to attach pictures and text. I also used light box on the bottom of the page. 
 3. Motion: I completed the page with JSON, JS and Vue Js. This way is learned from Professor Trevor's classtime. I used three ways to fetch files so I set up three JSON files.The video is controlled by JS. 
 4. Contact: I have done the page with PHP, JS and Vue JS. It can send emails for any emails. I already fixed the problem. Now the contact page is working.
 
