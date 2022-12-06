@@ -187,7 +187,7 @@ button {
 
 #arrow {width: 15px;}
 
-#logo  {width: 96px;}
+
 
 #number  {width: 20px;}
 
@@ -426,11 +426,18 @@ button {
 
 @media screen and (min-width: 430px) {
 .mobile { display: none;}
-.desktop { display: flex;}
+.desktop { display: flex;
+}
 
+.character-nav {
+    width: 430px;
+}
 /*------------ Nav Section 430px------------*/
+.footer {
+    font-size: 8px;
+}
 .logo { 
-    width: 50em;
+    width: 200px;
     display: inline;
     margin-right: 50px;
 }
@@ -452,6 +459,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 .navAbout {
@@ -502,7 +510,7 @@ button {
  }
  
   nav li a {
-     color: #000000;
+     color: #5e7f57;
      font-size: inherit;
      text-decoration: none;
      margin-bottom: 0em;
@@ -645,11 +653,14 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    width: 300px;
     margin: 30px auto 30px auto;
     border-top: 3px solid #5e7f57 ;
     color: #5e7f57;
 }
+
+
+
 .blue {color:#5e7f57;}
 
 .cris {display: none;}
@@ -711,7 +722,7 @@ button {
 
 /*------------ Nav Section ------------*/
 .logo { 
-    width: 6em;
+    width: 600px;
     display: inline;
     margin-right: 50px;
 }
@@ -905,3 +916,34 @@ button {
 }
 
 }
+
+@media screen and (max-width: 600px)
+{
+    #siteContainer 
+    {
+        margin: 0 auto;
+        width: 430px;
+    }
+
+    #character-nav {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        margin-left: -0em;
+        margin-bottom: 0em;
+        width: 430px;
+        
+      }
+
+    .inside {
+        width: 100%; 
+    }
+}
+
+.inside {
+    width: 120%;
+}
+
+
+
