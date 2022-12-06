@@ -9,7 +9,7 @@
         "tool":"Interact Media Design using HTML, CSS and Javascript",
         "type":"Web Pages",
         "price": "Corporate Publicity Pages",
-        "lbBG": "beer_show.jpg",
+        "detail": "beer_show.jpg",
         "metalpic": "liter_beer.jpg",
         "infor": "This work is together complished by Sian Kim and Ying Yang."
     },
@@ -24,7 +24,7 @@
         "tool":"Interact Media Design using HTML, CSS and Javascript",
         "type":"Web Pages",
         "price":"Ltd. Ads Pages",
-        "lbBG": "page2.jpg",
+        "detail": "page2.jpg",
         "metalpic":"clothes.png",
         "infor": "It is an individual project."
      
@@ -39,7 +39,7 @@
         "tool":"Music box for Interact Media Design using HTML, CSS and Javascript",
         "type":"JS APP",
         "price":"Private Web",
-        "lbBG": "music_all.jpg",
+        "detail": "music_all.jpg",
         "metalpic":"music1.jpg",
         "infor": "Class music project developed by Cristine De Noronha and Ying Yang."
     
