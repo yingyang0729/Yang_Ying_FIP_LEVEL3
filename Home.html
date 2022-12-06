@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sass/modules/main.css">
+    <link rel="stylesheet" href="sass/modules/main2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-    <title>About</title>
+    <title>Home</title>
 </head>
 
-<body class="skin">
+<body id="siteContainer">
     <p style="text-align: center;">
-        <object  data="images/Y_logo.svg" type="image/svg+xml" width="600px"></object>
+        <object  data="images/Y_logo.svg" type="image/svg+xml" class="logo"></object>
     </p>
-    <nav class="desktop"  id="navDesktop">
-        <h2 class="hidden">Main Navigation Desktop</h2>
-        
-        <ul>
-            <li><a href="Home.html">HOME</a></li>
-            <li><a href="Artworks.html">Graphic</a></li>
-            <li><a href="package.html">Motion</a></li>
-            <li><a href="Contact.html">CONTACT</a></li>
-        </ul>
-        
-    </nav>
+    <header>
+        <nav class="desktop"  id="navDesktop">
+            <h2 class="hidden">Main Navigation Desktop</h2>
+            
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Artworks.html">IMAGE</a></li>
+                <li><a href="package.html">WEB&VIDEO</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
     <main class="teamText"  id="app"><!--------vue will attach--->
         
         <div class="hero">
@@ -46,35 +49,23 @@
         <br>
 
         <div class="prductDescNew">   
-            <section class="productDescNew" v-for="member in remoteData">
+            <section v-for="member in remoteData">
                 <!----<pre>{{ member }}</pre>--->
                 <h2>{{ member.topic }}</h2>
                 <h3>{{ member.value }}</h3>
                 <p>{{ member.text }}</p>
-                
-    
-                <img :src='"images/" + member.photo' alt="member.photo" class="roundShadowNew">
+                <img :src='"images/" + member.photo' alt="member.photo" >
             </section>
         </div>
 
-      
+        <div class="footer" >
+            <p class="hero">{{ copyright }}</p>
+           
+        </div>
     
         
     </main>
     
-    <footer id="app" class="hero">
-        
-        <h2 class="hidden">Footer</h2>
-        
-        <div class="footer">
-        <p>
-          All prices and services on this website and in our reservation 
-          system are based on conditions at the time of publishing and are subject to change.<br> 
-          Please call to confirm services, availability and pricing.
-          <br><br> ©2022 Ying Yang  Digital Design Inc. All Rights Reserved. Privacy Policy
-        </p>
-        </div>
-    </footer>
     
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
