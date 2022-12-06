@@ -1,18 +1,19 @@
 <html>
     <head>
-        <title>"My Artworks"</title>
+        <title>Graphic</title>
         <script src="https://unpkg.com/vue@3"></script>
         <script src="https://unpkg.com/vue-router@4"></script>
-        <link rel="stylesheet" href="sass/modules/main.css">
+        <link rel="stylesheet" href="sass/modules/main.scss">
+        <link rel="stylesheet" href="sass/modules/main2.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-        <title>Artworks</title>
+        
     </head>
-    <body>
+    <body id="siteContainer">
         <header>
             <p style="text-align: center;">
-                <object  data="images/Y_logo.svg" type="image/svg+xml" width="600px"></object>
+                <object  data="images/Y_logo.svg" type="image/svg+xml" class="logo"></object>
             </p>
             <h1 class="hidden">Artworks</h1>
             <nav class="desktop"  id="navDesktop">
@@ -20,32 +21,35 @@
                 
                 <ul>
                     <li><a href="Home.html">HOME</a></li>
-                    <li><a href="Artworks.html">Graphic</a></li>
-                    <li><a href="package.html">Motion</a></li>
+                    <li><a href="Artworks.html">IMAGE</a></li>
+                    <li><a href="package.html">WEB&VIDEO</a></li>
                     <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
                 
             </nav>
-              
-    
         </header>
 
-        <div  id="app">
-            <h1 class="teamTitle"></h1>
-            <div id="ourTeamD">
+        <main >
+        <div id="app" >
+            <h1 class="teamTitle">My Graphic Artworks</h1>
+            <div >
                 <div class="teamImagesD">
-                    <p class="teamTitle" ></you></p>
-                        
+                    <p class="teamTitle" >I list my recent artworks below.</you></p>
                     <div class="teamText" >
-                        <router-link to="/">Design 1-Cosmetic 1</router-link><br>
-                        <router-link to="/marketing">Design 2-Cosmetic 2</router-link><br>
-                        <router-link to="/writing">Design 3-Beer</router-link><br>
+                        <router-link to="/" class="artwork">Graphic Design-Cosmetic 1</router-link><br>
+                        <router-link to="/design2" class="artwork">3D Design-Cosmetic 2</router-link><br>
+                        <router-link to="/design3" class="artwork">3D Design-Beer</router-link><br>
+                        <router-link to="/design4" class="artwork">3D Design-Snow global</router-link><br>
+                        <router-link to="/design5" class="artwork">3D Design-Room</router-link><br>
+                        <router-link to="/design6" class="artwork">3D Design-Hotel</router-link><br>
                     </div>
                 </div>
             </div>     
             <router-view></router-view>
         </div>
         <br>
+
+
         <div>
             <section class="mobile">
                 <div class="ourTeamM">
@@ -122,21 +126,20 @@
             </div>
         </div>
 
+       
+        </main>
 
         <footer id="footer">
             <h2 class="hidden">Footer</h2>
             <div class="footer">
             <p>
-              All prices and services on this website and in our reservation 
-              system are based on conditions at the time of publishing and are subject to change.<br> 
-              Please call to confirm services, availability and pricing.
-              <br><br> ©2022 Ying Yang  Digital Design Inc. All Rights Reserved. Privacy Policy
+              All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2022 Ying Yang  Digital Design Inc. All Rights Reserved. Privacy Policy
             </p>
             </div>
         </footer>
 
         <script src="./js/main_router.js" type="module" defer></script>
         <script src="./js/main_lightbox.js" type="module" defer></script>
-        
+       
     </body>
 </html>
