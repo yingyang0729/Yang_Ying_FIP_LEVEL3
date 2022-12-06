@@ -1,7 +1,7 @@
 #container{
     padding: 10px;
-    width: 50%;
-    margin-left: 23em;
+    width: 70%;
+    margin-left: 10em;
 }
 
 #playButtons, #nextButtons
@@ -29,10 +29,12 @@ button{
   
   #container h1 {
     color: #fff;
-    padding: 100px;
+    padding: 20px;
     
     border-radius: 5px;
-    margin-left: 550px;
+    margin-left: 460px;
+    margin-top: 10px;
+    font-size: 18px;
   }
   
   #playButton {
@@ -40,6 +42,7 @@ button{
     border: 1px solid #5e7f57;
     border-radius: 1px;
     margin-bottom: 20px;
+    
   }
   
   #rewindButton {
@@ -61,8 +64,13 @@ button{
   
   #vidNum {
     float: right;
+    color: #fff;
   }
   
+  #timeOut {
+    color: #fff;
+  }
+
   button {
     width: 30%;
     color: #5e7f57;
@@ -71,5 +79,37 @@ button{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    font-size: 16px;
   }
   
+
+  @media screen and (max-width: 600px)
+{
+  #container {
+    margin-top: -10em;
+    padding-top: -5em;
+  }
+
+  #container h1 {
+    color: #fff;
+    padding: 20px;
+    
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-top: -2em;
+    font-size: 12px;
+    
+  }
+
+
+  button {
+    width: 30%;
+    color: #5e7f57;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+}
