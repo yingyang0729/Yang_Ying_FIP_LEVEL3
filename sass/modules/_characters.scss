@@ -3,8 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    margin-left: 15em;
-    margin-bottom: -12em;
+    margin-left: 0em;
+    margin-bottom: -10em;
   }
   
   .characters { list-style-type: none; }
@@ -33,6 +33,7 @@
   
   .characters li h5 {
     color: white;
+    font-size: 18px;
   }
   
   .characters li a {
@@ -55,4 +56,57 @@
   top: 150px;
 
   transition: height 0.2s ease;
+}
+
+
+.red-bumper { 
+  height: 6px;
+  width: 100%; 
+  background-color: #5e7f57;
+  position: static;
+  top: 150px;
+
+  transition: height 0.2s ease;
+}
+
+@media screen and (max-width: 600px)
+{
+  .red-bumper { 
+    height: 6px;
+    width: 30%; 
+    background-color: #5e7f57;
+    position: static;
+    top: 150px;
+  
+    transition: height 0.2s ease;
+  }
+
+
+  .characters li h5 {
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    padding: 7px 4px; 
+    position: relative; 
+    z-index: 50; 
+  }
+
+  .characters li h5 {
+    color: white;
+    font-size: 14px;
+  }
+
+  .characters li { 
+    display: block;
+    position: static;
+    cursor: pointer;
+    height: 325px;
+    margin: 50px 5px;
+    border-radius: 5px;
+  
+    background-color: #5e7f57;
+    text-align: left;
+    overflow: hidden;
+  
+    /* border: thin dashed white; */
+  }
+  
 }
