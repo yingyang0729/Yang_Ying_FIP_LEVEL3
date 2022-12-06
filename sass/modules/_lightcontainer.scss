@@ -3,9 +3,9 @@
     //display: none;
   
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
   
-    position: absolute;
+    position: static;
     left: 0;
     top: 0;
   
@@ -17,14 +17,31 @@
     background-size: 76vh;
   
     z-index: 5000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    //-webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    //justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: left;
+    grid-column-gap: 100px;
+    margin-top: 10px;
+    flex-direction: row;
+ 
 }
 
 .lightcontainer_close { 
-    position: relative; 
-    top: 20px;
+    position: static; 
+    bottom: 20px;
     left: 95%;
     cursor: pointer;
-  
+    margin-top: 5em;
+    margin-right: 0em;
     width: 25px;
   }
 
@@ -69,9 +86,7 @@
     padding-top: 1em;
     margin-left: 10px;
     table-layout: fixed;
-	  word-wrap: break-all;
-	  word-break: normal;
-	  overflow-y: scroll;
+	  
     color: #fff;
     text-align: left; 
     font-size: 20px;;
@@ -82,9 +97,7 @@
     margin: 10px;
     padding: .2em;
     table-layout: fixed;
-	  word-wrap: break-all;
-	  word-break: normal;
-	  overflow-y: scroll;
+	  
     color: #fff;
     text-align: left; 
     font-size: 16px;;
@@ -92,32 +105,94 @@
 
 
 
-  @media screen and (max-width: 640px) {
-    .lightcontainer {
-  
-      //display: none;
-    
-      width: 100vw;
-      height: 100vh;
-    
-      position: absolute;
-      left: 0;
-      top: 0;
-    
-      background-color: #5e7f57;
-     
-      background-repeat: no-repeat;
-    
-      background-position: 20px center;
-      background-size: 25vh;
-    
-      z-index: 5000;
+  .lightbox-container {
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
   }
+  
+  .lightbox-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-column-gap: 40px;
+    margin-top: 40px;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 640px) {
+
+
+    .lightbox-wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      grid-column-gap: 40px;
+      margin-top: 40px;
+      flex-direction: row;
+      
+    }
+
+  .lightcontainer {
+  
+    //display: none;
+  
+    width: 50%;
+    height: 70%;
+    position: relative;
+    left: 0;
+    top: 0;
+  
+    background-color: #5e7f57;
+   
+    background-repeat: no-repeat;
+  
+    background-position: 60px center;
+    background-size: 76vh;
+  
+    z-index: 5000;
+    //display: -webkit-box;
+    //display: -webkit-flex;
+    //display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    //-webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    //justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: left;
+    grid-column-gap: 15px;
+    margin-top: 10px;
+    flex-direction: row;
+    width: 430px;
+ 
+}
   
   .lightcontainer_close { 
       position: relative; 
       top: 20px;
-      left: 85%;
+      right: 85%;
       cursor: pointer;
     
       width: 25px;
@@ -151,9 +226,7 @@
       width: 200px;
       color: #fff;
       font-size: 9px;
-      word-wrap: break-all;
-	    word-break: normal;
-	    overflow-y: scroll;
+     
     }
   
     
@@ -161,15 +234,9 @@
   
     .lb_topic { 
       line-height: 1.6 !important;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      padding-bottom: 2em;
-      padding-top: 1em;
       margin-left: 10px;
       table-layout: fixed;
-      word-wrap: break-all;
-      word-break: normal;
-      overflow-y: scroll;
+     
       color: #fff;
       text-align: left; 
       font-size: 16px;;
@@ -180,9 +247,7 @@
       margin: 10px;
       padding: .2em;
       table-layout: fixed;
-      word-wrap: break-all;
-      word-break: normal;
-      overflow-y: scroll;
+     
       color: #fff;
       text-align: left; 
       font-size: 13px;;
