@@ -19,7 +19,11 @@ import Lightcontainer from './components/TheLightcontainerComponent.js';
             return {
                 heroData: {},
                 lightcontainerData: {},
-                showLightContainer: false
+                showLightContainer: false,
+                
+                copyright: ' All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing.©2022 Ying Yang Digital Design Inc. All Rights Reserved. Privacy Policy',
+                
+                remoteData: {}
             }
         },
 
