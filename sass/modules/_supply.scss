@@ -487,3 +487,13 @@
 
 
    }
+
+
+   @media screen and (max-width: 430px)
+   {
+   #siteContainer 
+    {
+        margin: 0 auto;
+        width: 50%;
+    }
+   }
