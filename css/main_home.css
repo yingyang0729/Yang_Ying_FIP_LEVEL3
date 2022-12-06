@@ -629,7 +629,10 @@ button {
     margin: auto;
 }
 
-.teamImagesD { margin: 30px;}
+.teamImagesD { 
+    margin: 30px;
+    margin-top: 2em;
+}
 
 .teamImagesD img { 
     cursor: pointer;
@@ -939,11 +942,37 @@ button {
     .inside {
         width: 100%; 
     }
+
+    .teamImagesD { 
+        margin: 30px;
+        width: 200px;
+        margin-top: 0em;
+        padding-top: 0em;
+    }
 }
 
 .inside {
     width: 120%;
 }
+
+
+.pictureBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 30px auto 30px auto;
+    border-top: 3px solid #5e7f57 ;
+    color: #5e7f57;
+}
+
+.teamImagesD { 
+    margin: 30px;
+    width: 400px;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
 
 
 
