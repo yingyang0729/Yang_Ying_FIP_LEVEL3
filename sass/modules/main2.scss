@@ -102,7 +102,7 @@
     
     #arrow {width: 15px;}
     
-    #logo  {width: 96px;}
+
     
     #number  {width: 20px;}
     
@@ -336,16 +336,25 @@
         text-align: center;
         margin: auto;
         color: #ffffff;
-        background-color: #0087CD;
+        background-color: #5e7f57;
     }
     
     @media screen and (min-width: 430px) {
     .mobile { display: none;}
     .desktop { display: flex;}
     
+
+    .footer {
+        padding: 8px;
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        background-color: #5e7f57;
+    }
+    
     /*------------ Nav Section 430px------------*/
     .logo { 
-        width: 6em;
+        width: 200px;
         display: inline;
         margin-right: 50px;
     }
@@ -407,7 +416,7 @@
      
      
       nav li a {
-         color: #000000;
+         color: #5e7f57;
          font-size: inherit;
          text-decoration: none;
          margin-bottom: 0em;
@@ -545,15 +554,15 @@
         color: #5e7f57;
         text-align: center;
     }
-    
+      
     .teamText {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 500px;
+        width: 1000px;
         margin: 30px auto 30px auto;
-        border-top: 3px solid #0087CD ;
-        color: #0087CD;
+        border-top: 3px solid #5e7f57;
+        color:  #5e7f57;
     }
     .blue {color:#0087CD;}
     
@@ -616,7 +625,7 @@
     
     /*------------ Nav Section ------------*/
     .logo { 
-        width: 6em;
+        width: 600px;
         display: inline;
         margin-right: 50px;
     }
@@ -665,29 +674,7 @@
          font-size: 12pt;
       }
      
-     
-      nav li a {
-         color: #000000;
-         font-size: inherit;
-         text-decoration: none;
-         margin-bottom: 0em;
-         text-align: left;
-         align-self: center;
-         font-weight: 700;
-         margin-top: -5em;
-         font-size: 12pt;
-      }
-     
-      nav li a:hover {
-         color: #DC0E32;
-      }
-     
-      nav li a.active {
-         border-bottom: 3px solid #626262 ;
-         padding-bottom: 0.2em;
-         text-decoration: none;
-      }
-     
+
       nav li  {
          display: inline;
          text-align: left;
@@ -818,7 +805,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: #000000;
+    color: #5e7f57;
     font-family: 'Josefin Sans', sans-serif;
  }
 
@@ -833,11 +820,12 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    margin-top: 1em;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18pt;
     text-transform: uppercase;
+    text-align: center;
 
 }
 
@@ -848,16 +836,18 @@ h3 {
     font-size: 16pt;
     text-transform: uppercase;
     line-height: 20pt;
+    text-align: center;
 
 }
 
 a {
-    margin: auto;
+    margin-top: 1em;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20pt;
     font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -882,7 +872,7 @@ button {
     padding: 12px;
 }
 
-.blue {color:#0087CD;}
+.blue {color:#5e7f57;}
 
 .backBlue {
     background-color: #0087CD;
@@ -911,7 +901,7 @@ button {
 
 #arrow {width: 15px;}
 
-#logo  {width: 96px;}
+
 
 #number  {width: 20px;}
 
@@ -1140,13 +1130,6 @@ button {
 }
 
 /*------------ Footer Mobile---------------*/
-.footer {
-    padding: 12px;
-    text-align: center;
-    margin: auto;
-    color: #ffffff;
-    background-color: #0087CD;
-}
 
 @media screen and (min-width: 430px) {
 .mobile { display: none;}
@@ -1154,7 +1137,7 @@ button {
 
 /*------------ Nav Section 430px------------*/
 .logo { 
-    width: 6em;
+    width: 200px;
     display: inline;
     margin-right: 50px;
 }
@@ -1216,7 +1199,7 @@ button {
  
  
   nav li a {
-     color: #000000;
+     color: #5e7f57;
      font-size: inherit;
      text-decoration: none;
      margin-bottom: 0em;
@@ -1344,27 +1327,37 @@ button {
 }
 
 .teamImagesD p { 
-    color: #0087CD;
+    color: #5e7f57;
     text-align: center;
 }
 
 
 
 .teamTitle { 
-    color: #0087CD;
+    color: #5e7f57;
     text-align: center;
 }
-
+  
 .teamText {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    width: 1000px;
     margin: 30px auto 30px auto;
-    border-top: 3px solid #0087CD ;
-    color: #0087CD;
+    border-top: 3px solid #5e7f57;
+    color:  #5e7f57;
 }
-.blue {color:#0087CD;}
+
+
+.teamText img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin: 30px auto 30px auto;
+    
+}
+.blue {color:#5e7f57;}
 
 .cris {display: none;}
 .liz {display: none;}
@@ -1378,14 +1371,14 @@ button {
     margin-top: 10px;
     width: 30%;
     color:white;
-    background-color: #0087CD;
+    background-color: #5e7f57;
 }
 
 #close {
     margin-top: 10px;
     width: 30%;
     color:white;
-    background-color: #0087CD;
+    background-color: #5e7f57;
 }
 
 /*------------ Special Edition Section 430px------------*/    
@@ -1425,7 +1418,7 @@ button {
 
 /*------------ Nav Section ------------*/
 .logo { 
-    width: 6em;
+    width: 600px;
     display: inline;
     margin-right: 50px;
 }
@@ -1476,7 +1469,7 @@ button {
  
  
   nav li a {
-     color: #000000;
+     color: #5e7f57;
      font-size: inherit;
      text-decoration: none;
      margin-bottom: 0em;
@@ -1619,3 +1612,136 @@ button {
 }
 
 }
+
+.footer {
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    background-color: #5e7f57;
+}
+
+     
+.artwork {
+    color: #5e7f57;
+    font-size: inherit;
+    text-decoration: none;
+    margin-bottom: -0.5em;
+    text-align: left;
+    align-self: center;
+    font-weight: 400;
+    margin-top: 1em;
+    font-size: 18pt;
+ }
+
+ .artwork:hover {
+    color: #DC0E32;
+ }
+
+ .artwork.active {
+    border-bottom: 3px solid #626262 ;
+    padding-bottom: 0.2em;
+    text-decoration: none;
+ }
+
+
+@media screen and (min-width: 430px) {
+.mobile { display: none;}
+.desktop { display: flex;}
+
+}
+
+@media screen and (max-width: 600px)
+    {
+        .hero
+        {
+            width: 100%;
+        }
+
+        .prductDescNew {
+            width: 100%;
+        }
+
+        .teamText {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 430px;
+            margin: 30px auto 30px auto;
+            border-top: 3px solid #5e7f57;
+            color:  #5e7f57;
+            
+        }
+
+        .teamText p {
+            
+            width: 430px;
+            margin: auto;
+            color:  #5e7f57;
+            width: 100%;
+        }
+        
+        
+        
+        .teamText img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 200px;
+            margin: 30px auto 30px auto;
+            
+        }
+     
+    
+
+    .footer {
+            padding: 8px;
+            text-align: center;
+            margin: auto;
+            color: #ffffff;
+            background-color: #5e7f57;
+    }
+
+    .footer p{
+        color: #fff;
+    }
+
+    .cris 
+        {
+            width: 100%;
+        }
+    .show {
+        display: block;
+        width: 100%;
+        }
+
+    h3 {
+        margin-top: 20px;
+        padding: 0;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        line-height: 20pt;
+        text-align: center;
+        
+      }
+    h2 {
+        margin-top: 1em;
+        padding: 0;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16pt;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 16pt;
+        width: 100%;
+      }
+    }
