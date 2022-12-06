@@ -12,10 +12,10 @@
     <link href="css/main_home.css" rel="stylesheet" type="text/css" media="screen">
     <title>Contact</title>
 </head>
-<body>
+<body id="siteContainer">
     <main id="app">
         <p style="text-align: center;">
-            <object  data="images/Y_logo.svg" type="image/svg+xml" width="600px"></object>
+            <object  data="images/Y_logo.svg" type="image/svg+xml" class="logo"></object>
         </p>
 
         <nav class="desktop"  id="navDesktop">
@@ -23,8 +23,8 @@
             
             <ul>
                 <li><a href="Home.html">HOME</a></li>
-                <li><a href="Artworks.html">Graphic</a></li>
-                <li><a href="package.html">Motion</a></li>
+                <li><a href="Artworks.html">IMAGE</a></li>
+                <li><a href="package.html">WEB&VIDEO</a></li>
                 <li><a href="Contact.html">CONTACT</a></li>
             </ul>
             
@@ -87,20 +87,17 @@
                     </li>
                 </ul>                          
             </form>
-        </div>  
+        </div>
+        <div class="footer">
+            <p>
+              All prices and services on this website and in our reservation 
+              system are based on conditions at the time of publishing and are subject to change.<br> 
+              Please call to confirm services, availability and pricing.
+              <br><br> ©2022 Ying Yang  Digital Design Inc. All Rights Reserved. Privacy Policy
+            </p>
+            </div> 
     </main>
 
-    <footer id="footer">
-        <h2 class="hidden">Footer</h2>
-        <div class="footer">
-        <p>
-          All prices and services on this website and in our reservation 
-          system are based on conditions at the time of publishing and are subject to change.<br> 
-          Please call to confirm services, availability and pricing.
-          <br><br> ©2022 Ying Yang  Digital Design Inc. All Rights Reserved. Privacy Policy
-        </p>
-        </div>
-    </footer>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main_contact.js" type="module" defer></script>
