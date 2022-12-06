@@ -10,11 +10,11 @@
     top: 0;
   
     background-color: #5e7f57;
-    background-image: url('../images/Cap_LB_Bg.png');
+   
     background-repeat: no-repeat;
   
-    background-position: 100px bottom;
-    background-size: 70vh;
+    background-position: 60px center;
+    background-size: 76vh;
   
     z-index: 5000;
 }
@@ -27,6 +27,8 @@
   
     width: 25px;
   }
+
+
   
   .lightcontainer_close:hover { 
     opacity: 0.7; 
@@ -43,14 +45,149 @@
     text-align: left; 
     color: #fff;
   }
+
+  
   
   .lb_text { 
+    line-height: 2.6 !important;
+    margin: 10px;
+    padding: 0.2em;
+    table-layout: fixed;
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  
+
+
+  .lb_topic { 
     line-height: 1.6 !important;
-    margin: 30px;
-    padding: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-left: 10px;
     table-layout: fixed;
 	  word-wrap: break-all;
 	  word-break: normal;
 	  overflow-y: scroll;
     color: #fff;
+    text-align: left; 
+    font-size: 20px;;
+  }
+
+  .lb_heading { 
+    line-height: 1.6 !important;
+    margin: 10px;
+    padding: .2em;
+    table-layout: fixed;
+	  word-wrap: break-all;
+	  word-break: normal;
+	  overflow-y: scroll;
+    color: #fff;
+    text-align: left; 
+    font-size: 16px;;
+  }
+
+
+
+  @media screen and (max-width: 640px) {
+    .lightcontainer {
+  
+      //display: none;
+    
+      width: 100vw;
+      height: 100vh;
+    
+      position: absolute;
+      left: 0;
+      top: 0;
+    
+      background-color: #5e7f57;
+     
+      background-repeat: no-repeat;
+    
+      background-position: 20px center;
+      background-size: 25vh;
+    
+      z-index: 5000;
+  }
+  
+  .lightcontainer_close { 
+      position: relative; 
+      top: 20px;
+      left: 85%;
+      cursor: pointer;
+    
+      width: 25px;
+    }
+  
+  
+    
+    .lightcontainer_close:hover { 
+      opacity: 0.7; 
+      transform: scale(-1, 1); 
+    }
+    
+    .lightcontainer article { 
+      width: 55%; 
+      margin-left: 40%;
+      padding-top: 50px;
+    }
+    
+    .lb_text, .lb_heading { 
+      text-align: left; 
+      color: #fff;
+    }
+  
+    
+    
+    .lb_text { 
+      line-height: 2.6 !important;
+      margin: 10px;
+      padding: 0.2em;
+      table-layout: fixed;
+      width: 200px;
+      color: #fff;
+      font-size: 9px;
+      word-wrap: break-all;
+	    word-break: normal;
+	    overflow-y: scroll;
+    }
+  
+    
+  
+  
+    .lb_topic { 
+      line-height: 1.6 !important;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding-bottom: 2em;
+      padding-top: 1em;
+      margin-left: 10px;
+      table-layout: fixed;
+      word-wrap: break-all;
+      word-break: normal;
+      overflow-y: scroll;
+      color: #fff;
+      text-align: left; 
+      font-size: 16px;;
+    }
+  
+    .lb_heading { 
+      line-height: 1.6 !important;
+      margin: 10px;
+      padding: .2em;
+      table-layout: fixed;
+      word-wrap: break-all;
+      word-break: normal;
+      overflow-y: scroll;
+      color: #fff;
+      text-align: left; 
+      font-size: 13px;;
+    }
+  
+  
+  
   }
