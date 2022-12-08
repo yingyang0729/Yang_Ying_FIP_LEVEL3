@@ -3,13 +3,13 @@
     //display: none;
   
     width: 100vw;
-    height: 300vh;
+    height: 150vh;
   
     position: static;
     left: 0;
     top: 0;
   
-    background-color: #5e7f57;
+    background-color: #070707;
    
     background-repeat: no-repeat;
   
@@ -73,6 +73,7 @@
     width: 200px;
     color: #fff;
     font-size: 14px;
+    
   }
 
   
@@ -80,16 +81,20 @@
 
   .lb_topic { 
     line-height: 1.6 !important;
-    margin-top: 30px;
+    margin-top: 2em;
     margin-bottom: 30px;
-    padding-bottom: 2em;
-    padding-top: 1em;
+   
     margin-left: 10px;
     table-layout: fixed;
 	  
-    color: #fff;
+    color: black;
     text-align: left; 
     font-size: 20px;;
+    background-color: #fff;
+    padding: 8px 1.1em;
+    border-radius: 7px;
+    font-weight: 700;
+    text-align: center;
   }
 
   .lb_heading { 
@@ -98,9 +103,13 @@
     padding: .2em;
     table-layout: fixed;
 	  
-    color: #fff;
+    background-color: rgb(58, 57, 57);
     text-align: left; 
     font-size: 16px;;
+    color: rgb(251, 249, 249);
+    padding: 8px 1.6em;
+    border-radius: 7px;
+    
   }
 
 
@@ -162,7 +171,7 @@
     left: 0;
     top: 0;
   
-    background-color: #5e7f57;
+    background-color: #070707;
    
     background-repeat: no-repeat;
   
@@ -192,7 +201,7 @@
   .lightcontainer_close { 
       position: relative; 
       top: 20px;
-      right: 85%;
+      right: 95%;
       cursor: pointer;
     
       width: 25px;
