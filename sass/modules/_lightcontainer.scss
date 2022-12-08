@@ -3,13 +3,13 @@
     //display: none;
   
     width: 100vw;
-    height: 150vh;
+    height: 300vh;
   
     position: static;
     left: 0;
     top: 0;
   
-    background-color: #070707;
+    background-color: #5e7f57;
    
     background-repeat: no-repeat;
   
@@ -73,7 +73,6 @@
     width: 200px;
     color: #fff;
     font-size: 14px;
-    
   }
 
   
@@ -81,20 +80,16 @@
 
   .lb_topic { 
     line-height: 1.6 !important;
-    margin-top: 2em;
+    margin-top: 30px;
     margin-bottom: 30px;
-   
+    padding-bottom: 2em;
+    padding-top: 1em;
     margin-left: 10px;
     table-layout: fixed;
 	  
-    color: black;
+    color: #fff;
     text-align: left; 
     font-size: 20px;;
-    background-color: #fff;
-    padding: 8px 1.1em;
-    border-radius: 7px;
-    font-weight: 700;
-    text-align: center;
   }
 
   .lb_heading { 
@@ -103,13 +98,9 @@
     padding: .2em;
     table-layout: fixed;
 	  
-    background-color: rgb(58, 57, 57);
+    color: #fff;
     text-align: left; 
     font-size: 16px;;
-    color: rgb(251, 249, 249);
-    padding: 8px 1.6em;
-    border-radius: 7px;
-    
   }
 
 
@@ -171,7 +162,7 @@
     left: 0;
     top: 0;
   
-    background-color: #070707;
+    background-color: #5e7f57;
    
     background-repeat: no-repeat;
   
@@ -201,7 +192,7 @@
   .lightcontainer_close { 
       position: relative; 
       top: 20px;
-      right: 95%;
+      right: 85%;
       cursor: pointer;
     
       width: 25px;
@@ -235,7 +226,9 @@
       width: 200px;
       color: #fff;
       font-size: 9px;
-     
+      word-wrap: break-all;
+	    word-break: normal;
+	    overflow-y: scroll;
     }
   
     
@@ -256,7 +249,7 @@
       margin: 10px;
       padding: .2em;
       table-layout: fixed;
-     
+      
       color: #fff;
       text-align: left; 
       font-size: 13px;;
